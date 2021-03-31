@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import MainContent from 'src/components/MainContent';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        asdf
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={MainContent} />
+    </Switch>
   );
-}
+};
 
 export default App;
