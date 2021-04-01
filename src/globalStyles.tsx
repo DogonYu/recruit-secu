@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 16px;
   }
   body {
-    min-width: 1920px;
+    min-width: 1900px;
     margin: 0;
     h2 {
       font-weight: 700;
